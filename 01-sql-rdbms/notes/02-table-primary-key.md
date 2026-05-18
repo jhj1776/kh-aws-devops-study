@@ -1,12 +1,28 @@
-##  복습 메모
+# table 생성 및 데이터 삽입
+
+## 핵심 정리
+
+- `CREATE TABLE 테이블명()` 으로 테이블 생성
+- `INSERT INTO 테이블명(컬럼1,2,...) VALUES (값1,2,...),(값1,2,...),(값1,2,...)` 으로 데이터 삽입
+- PRIMARY KEY: 각 행을 구분하는 기본 키 설정
+- BIGSERIAL: PostgreSQL에서 자동 증가 숫자 생성
+
+## 실습 내용
+
+- 테이블 생성
+- 데이터 삽입
+
+## 복습 메모
 
 ### BIGSERIAL PRIMARY KEY
 
 ```sql
 employee_id BIGSERIAL PRIMARY KEY
 ```
-- PRIMARY KEY: 각 행을 구분하는 기본 키 설정
+
 - 기본키는 중복 불가
 - 기본키는 NULL 불가
-- BIGSERIAL: PostgreSQL에서 자동 증가 숫자 생성
+  
+## 학습 중 생긴 의문
 
+-
