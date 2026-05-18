@@ -23,6 +23,14 @@
 - SourceTree
 - Postman
 
+## 폴더 구조
+
+| 폴더 | 역할 |
+|---|---|
+| schema | 테이블 생성, 샘플 데이터 입력 SQL |
+| postgresql | PostgreSQL 기준 SQL 실습 파일 |
+| notes | 개념 정리, 학습 중 생긴 의문, 나중을 위한 설명 |
+
 ## 실습 주제
 
 - 테이블 생성
