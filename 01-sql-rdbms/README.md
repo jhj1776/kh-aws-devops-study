@@ -1,46 +1,37 @@
 # 01 SQL/RDBMS
 
+## 복습 목적
 
+- SQL 기본 문법 재정리
+- Oracle, MySQL, PostgreSQL 사용 경험 정리
+- DB 환경 설정과 사용 도구 기억 보존
+- 개념을 내 말로 설명할 수 있도록 정리
 
-## 학습 목표
+## DB 학습 기준
 
+- 초기 SQL 학습: Oracle
+- JSP/MyBatis 실습: MySQL
+- Spring Boot/JPA 실습: PostgreSQL
+- 현재 복습 기준: PostgreSQL
+- DB별 차이점은 필요한 시점에 별도 정리
 
+## 사용 도구
 
-- SQL 기본 문법 복습
+- pgAdmin
+- IntelliJ IDEA
+- VS Code
+- SourceTree
+- Postman
 
-- 테이블 생성, 데이터 입력, 조회 흐름 정리
+## 실습 주제
 
-- JOIN, GROUP BY, SUBQUERY 실습
+- 테이블 생성
+- 데이터 입력
+- SELECT / WHERE / ORDER BY
+- JOIN
+- GROUP BY / HAVING
+- SUBQUERY
+- TRANSACTION
+- INDEX
 
-- 간단한 업무 데이터 모델 설계
-
-
-
-## 실습 내용
-
-
-
-- 사원/부서 테이블 설계
-
-- 기본 SELECT 쿼리 작성
-
-- JOIN 쿼리 작성
-
-- GROUP BY 집계 쿼리 작성
-
-- 서브쿼리 작성
-
-
-
-## 알게 된 점
-
-
-
-## 어려웠던 점
-
-
-
-## 다음에 복습할 내용
-
-
-
+## 학습 중 생긴 의문
