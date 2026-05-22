@@ -41,5 +41,3 @@
 - SUBQUERY
 - TRANSACTION
 - INDEX
-
-## 학습 중 생긴 의문
