@@ -17,7 +17,9 @@
 
 ## 복습 메모
 
--
+- pgAdmin4 실행 -> PostgreSQL / Databases 우클릭 눌러 Create -> Database... 로 이름 지정 후 데이터베이스 생성
+- 이름: kh_sql_practice
+- 만들어진 kh_sql_practice 우클릭 -> Query Tool 열고 실습 쿼리 실행
 
 ## 학습 중 생긴 의문
 
