@@ -27,6 +27,21 @@ SELECT employee_id, employee_name
 FROM employees
 WHERE employee_name LIKE '%Kim%';
 
+-- 이름이 'K'로 시작하는 사원 조회
+SELECT employee_id, employee_name
+FROM employees
+WHERE employee_name LIKE 'K%';
+
+-- 이름이 3글자인 사원 조회
+SELECT employee_id, employee_name
+FROM employees
+WHERE employee_name LIKE '___';
+
+-- 이름의 두 번째 글자가 'i'인 사원 조회
+SELECT employee_id, employee_name
+FROM employees
+WHERE employee_name LIKE '_i%';
+
 -- 입사일이 2024년 이후인 사원 조회
 SELECT employee_id, employee_name, hire_date
 FROM employees
