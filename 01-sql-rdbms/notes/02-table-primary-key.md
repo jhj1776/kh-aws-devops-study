@@ -25,4 +25,13 @@ employee_id BIGSERIAL PRIMARY KEY
   
 ## 학습 중 생긴 의문
 
--
+### 의문: BIGSERIAL은 그럼 무슨 타입인가?
+
+#### 답변: 실제 저장 타입으로 보면 BIGINT이다.
+
+- BIGINT 타입의 자동 증가 설정을 편하게 해주는 것이다.
+- SMALLSERIAL → SMALLINT 기반 자동 증가
+- SERIAL      → INTEGER 기반 자동 증가
+- BIGSERIAL   → BIGINT 기반 자동 증가
+
+
